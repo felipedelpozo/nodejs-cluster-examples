@@ -1,0 +1,95 @@
+{
+  "name": "felipedelpozo/nodejs-cluster-examples",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/felipedelpozo/nodejs-cluster-examples",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/nodejs-cluster-examples",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "nodejs-cluster-examples",
+      "subhead": "Some examples on how using cluster module",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "nodejs-cluster-examples: Some examples on how using cluster module",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "felipedelpozo",
+          "repo": "nodejs-cluster-examples"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<p><a href=\"https://standardjs.com\"><img src=\"https://img.shields.io/badge/code_style-standard-brightgreen.svg\"></a></p>\n\n<p>Simple repository with some examples on how using NodeJS cluster module and how shutting down properly an HTTP server.</p>\n<p>Code uses standardjs style guide, you can check it running: <code>$ npm/yarn run lint</code>.</p>\n<h2>Run</h2>\n<p>Run sample in command line:</p>\n<pre>$ node sample-name.js</pre>"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/felipedelpozo/nodejs-cluster-examples",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/felipedelpozo",
+          "text": "felipedelpozo"
+        }
+      ]
+    }
+  ]
+}
